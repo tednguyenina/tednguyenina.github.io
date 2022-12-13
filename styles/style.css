@@ -316,7 +316,9 @@ footer .content {
   text-align: center;
   background: url("../img/machine.png") no-repeat 50%;
   background-position-x: calc(50% + -10px);
-  min-height: 980px;
+  /* min-height: 980px; */
+  height: 100%;
+  background-size: contain;
 }
 
 #casino .content > div {
