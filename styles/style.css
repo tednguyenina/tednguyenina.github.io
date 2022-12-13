@@ -403,7 +403,8 @@ footer {
 
 #casino1,
 #casino2,
-#casino3 {
+#casino3,
+#casino4 {
   z-index: 99;
   position: absolute;
 }
@@ -420,6 +421,11 @@ footer {
 #casino3,
 #casino3Max {
   left: 304px;
+}
+
+#casino4,
+#casino4Max {
+  left: 436px;
 }
 
 .slotNumber {

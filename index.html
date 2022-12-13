@@ -220,32 +220,32 @@
       btnStop.addEventListener("click", () => {
         switch (count) {
           case 4:
-            mCasino4.randomize = () => {
+            mCasino1.randomize = () => {
               console.log(`First lucky number is: ${firstNumber}`);
               return firstNumber;
             };
-            mCasino4.stop();
+            mCasino1.stop();
             break;
           case 3:
-            mCasino3.randomize = () => {
+            mCasino2.randomize = () => {
               console.log(`Second lucky number is: ${secondNumber}`);
               return secondNumber;
             };
-            mCasino3.stop();
+            mCasino2.stop();
             break;
           case 2:
-            mCasino2.randomize = () => {
+            mCasino3.randomize = () => {
               console.log(`Third lucky number is: ${thirdNumber}`);
               return thirdNumber;
             };
-            mCasino2.stop();
+            mCasino3.stop();
             break;
           case 1:
-            mCasino1.randomize = () => {
+            mCasino4.randomize = () => {
               console.log(`Fourth lucky number is: ${fourthumber}`);
               return fourthumber;
             };
-            mCasino1.stop();
+            mCasino4.stop();
             console.log(
               `Final Number: ${firstNumber}${secondNumber}${thirdNumber}${fourthumber}`
             );
