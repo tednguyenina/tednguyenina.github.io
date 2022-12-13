@@ -44,8 +44,8 @@ h1 {
 }
 
 .container {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 a {
@@ -322,7 +322,7 @@ footer .content {
 }
 
 #casino .content > div {
-  padding-top: 460px;
+  padding-top: 370px;
   /* padding-left: 60px; */
   width: 630px;
   margin: 0 auto;
@@ -412,22 +412,22 @@ footer {
 }
 
 #casino1 {
-  left: 53px;
+  left: 54px;
 }
 
 #casino2,
 #casino2Max {
-  left: 185px;
+  left: 186px;
 }
 
 #casino3,
 #casino3Max {
-  left: 317px;
+  left: 318px;
 }
 
 #casino4,
 #casino4Max {
-  left: 449px;
+  left: 450px;
 }
 
 .slotNumber {
