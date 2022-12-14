@@ -218,40 +218,29 @@
        * get random number on first click
        */
       btnStop.addEventListener("click", () => {
-        switch (count) {
-          case 4:
-            mCasino1.randomize = () => {
-              console.log(`First lucky number is: ${firstNumber}`);
-              return firstNumber;
-            };
-            mCasino1.stop();
-            break;
-          case 3:
-            mCasino2.randomize = () => {
-              console.log(`Second lucky number is: ${secondNumber}`);
-              return secondNumber;
-            };
-            mCasino2.stop();
-            break;
-          case 2:
-            mCasino3.randomize = () => {
-              console.log(`Third lucky number is: ${thirdNumber}`);
-              return thirdNumber;
-            };
-            mCasino3.stop();
-            break;
-          case 1:
-            mCasino4.randomize = () => {
-              console.log(`Fourth lucky number is: ${fourthNumber}`);
-              return fourthNumber;
-            };
-            mCasino4.stop();
-            console.log(
-              `Final Number: ${firstNumber}${secondNumber}${thirdNumber}${fourthNumber}`
-            );
-            break;
-        }
-        count--;
+        mCasino1.randomize = () => {
+          console.log(`First lucky number is: ${firstNumber}`);
+          return firstNumber;
+        };
+        mCasino1.stop();
+        mCasino2.randomize = () => {
+          console.log(`Second lucky number is: ${secondNumber}`);
+          return secondNumber;
+        };
+        mCasino2.stop();
+        mCasino3.randomize = () => {
+          console.log(`Third lucky number is: ${thirdNumber}`);
+          return thirdNumber;
+        };
+        mCasino3.stop();
+        mCasino4.randomize = () => {
+          console.log(`Fourth lucky number is: ${fourthNumber}`);
+          return fourthNumber;
+        };
+        mCasino4.stop();
+        console.log(
+          `Final Number: ${firstNumber}${secondNumber}${thirdNumber}${fourthNumber}`
+        );
       });
     </script>
   </body>
